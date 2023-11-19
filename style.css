@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body,
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+html {
+	background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1644832440_42-fikiwiki-com-p-krasivie-kartinki-barseloni-47.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	font-family: 'Poppins';
+	margin-top: 200px;
+}
+
+input {
+	border: none;
+	max-width: 255px;
+	font-size: 20px;
+	font-family: inherit;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+	background-color: transparent;
+	color: black;
+	font-size: 22px;
+}
+
+i {
+	font-size: 25px;
+	padding-right: 5px;
+}
+
+.fa-magnifying-glass /* btn */ {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	outline: none;
+	border-radius: 10px;
+	padding: 15px 30px;
+	width: 150px;
+	margin-left: 20px;
+	transition: 0.5s ease;
+}
+
+.fa-magnifying-glass:hover {
+	color: black;
+	background-color: white;
+}
+
+.search-bar {
+	border-bottom: 1px solid;
+	border-radius: 10px 10px 0 0;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(30, 5, 5, 0.727);
+}
+
+/* //// */
+
+.weather {
+	font-family: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	color: white;
+	border: 1px solid;
+	border-radius: 0px 0px 10px 10px;
+	background-color: rgba(128, 128, 128, 0.477);
+	width: 100%;
+	padding-left: 45px;
+	transition: 0.5s ease;
+}
+
+.weather h2 {
+	margin: 10px 0 10px 0;
+}
+
+.weather-info {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	margin-left: -0px;
+}
+
+h3 {
+	font-family: inherit;
+	font-weight: inherit;
+	display: inline;
+	position: relative;
+	right: 10px;
+	text-transform: capitalize;
+}
+
+.info1 {
+	display: flex;
+	align-items: center;
+	margin-left: -15px;
+	margin-bottom: -20px;
+	justify-content: start;
+}
+
+.weather.getting {
+	visibility: hidden;
+}
