@@ -1,7 +1,7 @@
 $('input').focus()
 
 let weather = {
-	API: '0e888dae44d1eff3855e3412514353e4',
+	API: '',
 	fetchWeather: function (city) {
 		fetch(
 			'http://api.openweathermap.org/data/2.5/weather?q=' +
